@@ -13,14 +13,179 @@ reset
 general 
 */
 
+
 /* 
 header  
 */
+.container-header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-left  {
+    width: 500px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-right {
+    width: 400px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+div > button {
+    background-color: white;
+    border: 0;
+}
+
+#inizia {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+}
+
+.container-header-bottom {
+    background-color: #b4d0e7;
+    height: 540px;
+}
+
+.description-header {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.title-header {
+    font-size: 30px;
+    padding: 20px 0;
+   
+}
+
+.container-description {
+    display: flex;
+    position: relative;
+}
+
+.container-description > div > img {
+    width: 700px;
+    
+    
+}
+
+.container-description > div > button {
+    background-color: #0061ff;
+    padding: 10px;
+    color: white;
+}
+
+.container-description-left:first-child {
+    font-size: 14px;
+}
+
+.container-description-left {
+    width: 30%;
+    
+}
+
+.container-description-right {
+    position: absolute;
+    right: 0;
+
+}
+
+.container-description-left > * {
+    margin-bottom: 20px;
+}
+
+.freccia {
+    font-size: 50px;
+    margin-top: 40px;
+    
+}
+
+
+
 
 /* 
 main  
 */
 
+main {
+    height: 1000px;
+}
+
 /* 
 footer  
 */
+
+.background-lightblack {
+    background-color: #23272a;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.container-caselle-footer {
+    width: 1000px;
+    margin: 0px auto 30px ;
+    display: flex;
+    
+}
+
+
+.casella-info  {
+    display: flex;
+    margin: 50px 0;
+}
+
+.casella-info > *  {
+    width: calc(1000px / 5);
+   
+}
+
+.title-footer {
+    color: white;
+    padding-bottom: 20px;
+
+}
+
+.background-footer > * {
+    padding: 5px;
+    text-align: center;
+}
+
+hr {
+    
+    width: 100px;
+    margin: 0 260px;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding: 10px 0;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.italiano {
+    margin-left: 3px;
+    font-size: 15px;
+}
+
+.menu-italiano {
+    display: flex;
+    margin: 40px auto;
+    width: 1000px;
+    color: lightslategray;
+}
