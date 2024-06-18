@@ -39,10 +39,17 @@ header
 
 }
 
-div > button {
+.container-left > button ,
+.container-right > button {
     background-color: white;
     border: 0;
+
 }
+
+/* div > button {
+    background-color: white;
+    border: 0;
+} */
 
 #inizia {
     background-color: blue;
@@ -52,7 +59,7 @@ div > button {
 
 .container-header-bottom {
     background-color: #b4d0e7;
-    height: 540px;
+    /* height: 540px; */
 }
 
 .description-header {
@@ -77,6 +84,11 @@ div > button {
     
 }
 
+.description-header {
+    position: relative;
+    top: 60px;
+}
+
 .container-description > div > button {
     background-color: #0061ff;
     padding: 10px;
@@ -92,19 +104,24 @@ div > button {
     
 }
 
-.container-description-right {
+/* .container-description-right {
     position: absolute;
     right: 0;
 
-}
+} */
 
 .container-description-left > * {
     margin-bottom: 20px;
 }
 
-.freccia {
+#freccia {
     font-size: 50px;
-    margin-top: 40px;
+    margin-top: 30px;
+    color: black;
+    background-color: #b4d0e7;
+    padding: 0;
+    border: 0;
+   
     
 }
 
@@ -116,7 +133,244 @@ main
 */
 
 main {
-    height: 1000px;
+    margin-top: 130px;
+}
+
+.main-top ,
+.main-team ,
+.main-partner ,
+.main-fuction ,
+.main-more-client ,
+.container-requests {
+    width: 850px;
+    margin: 0 auto;
+}
+
+.main-top > h2 {
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+.option-button {
+    padding-bottom: 30px;
+}
+
+.option-button > * {
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.option-subscription {
+    display: flex;
+    justify-content: space-between;
+}
+
+.option-subscription > * {
+    width: 30%;
+    border: 1px solid gray;
+    margin-bottom: 40px;
+
+}
+
+.title-main-top {
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.description-column > button {
+    background-color: #0061ff;
+    color: white;
+    padding: 10px 15px;
+}
+
+.description-column > hr {
+    width: 50px;
+    color: gray;
+
+}
+
+.description-column {
+    padding: 30px 15px;
+}
+
+.type-subscription > * {
+    padding: 6px 0;
+}
+
+.type-subscription > h3 {
+    font-size: 25px;
+
+}
+
+.description-subscription {
+    margin: 20px 0;
+}
+
+.description-subscription > ul > li ,
+.point-subscription > * ,
+.point-subscription > ul > li {
+    padding: 10px 0;
+}
+
+.link-subscription ,
+.point-subscription ,
+.point-subscription {
+    margin: 20px 0;
+}
+
+.team {
+    border: 1px solid gray;
+    
+}
+
+.title-team {
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container-team ,
+.container-partner {
+    display: flex;
+}
+
+.team-left {
+    width: 70%;
+    padding: 20px 0 20px 15px;
+}
+
+.team-left > * {
+    padding: 5px 0 ;
+}
+
+.team-left > div > h3 {
+    font-size: 20px;
+}
+
+.team-left > div:last-child {
+    padding-top: 30px;
+}
+
+.team-right {
+    width: 30%;
+    padding: 30px 20px;
+}
+
+.team-right > button {
+    background-color: #0061ff;
+    color: white;
+    padding: 7px 25px;
+    border: 0;
+}
+
+.main-team {
+    margin-bottom: 100px;
+}
+
+.partner-left > img {
+    width: 100%;
+}
+
+.partner-left {
+    width: 60%;
+}
+
+.partner-right {
+    width: 40%;
+    padding: 40px 30px;
+}
+
+.partner-right > div{
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+.partner-right > button{
+    padding: 10px ;
+    background-color: white;
+    margin-top: 20px;
+}
+.container-partner{
+    margin-bottom: 60px;
+}
+
+.main-fuction ,
+.main-more-client {
+    margin-bottom: 80px;
+}
+
+.container-fuction {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.tittle-fuction {
+    padding: 20px 0;
+}
+
+
+.container-fuction > * {
+    width: 30%;
+}
+
+.container-fuction > div > img {
+    width: 100%;
+}
+
+.container-fuction > div > div {
+    font-size: 13px;
+    padding: 20px 0;
+}
+
+.main-more-client > div {
+    padding: 30px 0;
+}
+
+.main-sponsor {
+    height: calc(100vw / 3);
+    background-color: aqua;
+
+}
+
+.main-prove {
+    background-color: #b4d0e7;
+    
+}
+.container-prove {
+    display: flex;
+    margin: 0 auto;
+    width: 850px;
+    padding: 50px 0;
+}
+
+.prove-left {
+    width: 60%;
+    font-size: 20px;
+    color: #61082b;
+}
+
+.prove-right > button {
+    border: 0;
+    background-color: white;
+    padding: 5px 30px;
+}
+
+.main-requests {
+    margin: 50px 0;
+}
+
+.container-requests > div > h2 {
+    padding: 50px 0;
+}
+
+.requests {
+    padding: 20px 10px 20px 0;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 /* 
@@ -158,22 +412,22 @@ footer
     text-align: center;
 }
 
-hr {
+.background-lightblack > hr {
     
     width: 100px;
     margin: 0 260px;
     
 }
 
-ul {
+.section > nav > ul {
     list-style-type: none;
 }
 
-ul li {
+.section > nav > ul > li {
     padding: 10px 0;
 }
 
-li a {
+.section > nav > ul > li > a {
     color: white;
     text-decoration: none;
 }
@@ -189,3 +443,28 @@ li a {
     width: 1000px;
     color: lightslategray;
 }
+
+
+/* 
+icone
+.description-subscription ul ,
+.point-subscription ul {
+    --icon-space: 1.3em;
+    list-style: none;
+    padding: 0;
+  }
+  
+.description-subscription li ,
+.point-subscription li {
+    padding-left: var(--icon-space);
+    margin:15px 0;
+}
+  
+.description-subscription li::before ,
+.point-subscription li::before {
+    content: "\f078"; FontAwesome Unicode
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+} */
