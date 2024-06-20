@@ -20,6 +20,7 @@ header
 .container-header-top {
     display: flex;
     justify-content: space-between;
+    text-decoration: none;
 }
 
 .container-left  {
@@ -30,26 +31,20 @@ header
     align-items: center;
 }
 
+.container-left > a ,
+.container-right > a {
+    text-decoration: none;
+    color: gray;
+}
+
 .container-right {
     width: 400px;
-    padding: 15px;
+    padding: 15px 0px 15px 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 
 }
-
-.container-left > button ,
-.container-right > button {
-    background-color: white;
-    border: 0;
-
-}
-
-/* div > button {
-    background-color: white;
-    border: 0;
-} */
 
 #inizia {
     background-color: blue;
